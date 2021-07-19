@@ -43,7 +43,7 @@ app.get("/healthy-life", function(req, res) { //route url cho các trang nhánh
     });
 });
 
-<!-- HEALTHY FOODS -->
+//HEALTHY FOODS 
 app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
     count++;
     res.render("healthy-foods", {
@@ -69,7 +69,8 @@ app.get("/virtual-event", function(req, res) { //route url cho các trang nhánh
         count: count,
     });
 });
-<!-- Hết phần Healthy Foods -->
+
+//Hết phần Healthy Foods
 
 
 app.get("/gym", function(req, res) { //route url cho các trang nhánh
