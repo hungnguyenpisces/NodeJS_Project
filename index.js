@@ -30,47 +30,14 @@ app.get("/calc", function(req, res) { //route url cho các trang nhánh
         count: count,
     });
 });
+
+
 app.get("/be-stronger", function(req, res) { //route url cho các trang nhánh
     count++;
     res.render("be-stronger", {
         count: count,
     });
 });
-app.get("/healthy-life", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("healthy-life", {
-        count: count,
-    });
-});
-
-<!-- HEALTHY FOODS -->
-app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("healthy-foods", {
-        count: count,
-    });
-});
-
-app.get("/healthy-recipes", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("healthy-recipes", {
-        count: count,
-    });
-});
-app.get("/nutrition-facts", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("nutrition-facts", {
-        count: count,
-    });
-});
-app.get("/virtual-event", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("virtual-event", {
-        count: count,
-    });
-});
-<!-- Hết phần Healthy Foods -->
-
 
 app.get("/gym", function(req, res) { //route url cho các trang nhánh
     count++;
@@ -102,3 +69,48 @@ app.get("/event", function(req, res) { //route url cho các trang nhánh
         count: count,
     });
 });
+
+
+app.get("/healthy-life", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-life", {
+        count: count,
+    });
+});
+app.get("/healthy-life-news", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-life-news", {
+        count: count,
+    });
+});
+
+
+
+<!-- HEALTHY FOODS -->
+app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-foods", {
+        count: count,
+    });
+});
+
+app.get("/healthy-recipes", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-recipes", {
+        count: count,
+    });
+});
+app.get("/nutrition-facts", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("nutrition-facts", {
+        count: count,
+    });
+});
+app.get("/virtual-event", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("virtual-event", {
+        count: count,
+    });
+});
+<!-- Hết phần Healthy Foods -->
+
