@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.event-heading {
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner-top {
+    margin-top: 60px;
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.event-time {
+    width: 230px;
+    height: 260px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    top: 16%;
+    left: 20%;
+}
+
+.date-time {
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    padding: 2px 0 0 24px;
+}
+
+.red-background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-width: 86px 60px;
+    border-color: #fc3c2a transparent transparent #fc3c2a;
+    z-index: -1;
+}
+
+.date {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.month {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 14px;
+}
+
+.time {
+    width: 100%;
+    display: flex;
+    padding: 16px 10px 8px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.icon-time {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.time p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.address-event {
+    padding: 16px 20px 8px 10px;
+    display: flex;
+}
+
+.icon-address {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.address-event p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.addr {
+    display: block;
+    margin-left: 40px;
+    margin-right: 56px;
+    font-size: 14px;
+}
+
+.info.col {
+    margin-top: 60px;
+    padding-right: 60px;
+}
+
+.des {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.achievements {
+    margin-top: 60px;
+}
+
+.icon-cup {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    color: #fc3c2a;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fc3c2a;
+    position: relative;
+    z-index: 1;
+}
+
+.line-cup {
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    top: -1px;
+}
+
+.list-cup {
+    margin-top: 30px;
+    margin-left: 30px;
+    list-style: square outside url("/assets/image/icon--check.png");
+    font-size: 16px;
+}
+
+.item-cup {
+    padding: 4px;
+}
+
+.list-price {
+    margin-top: 30px;
+    margin-left: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+.item-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 4px 4px 4px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.item-price p {
+    width: 32%;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.item-price p:last-child {
+    text-align: right;
+}
+
+.item-price p:nth-child(2) {
+    text-align: center;
+}
+
+.trainer {
+    margin-top: 60px;
+}
+
+.trainer-heading {
+    position: relative;
+    z-index: 1;
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fc3c2a;
+    text-align: center;
+}
+
+.trainer-heading h2 {
+    font-size: 30px;
+}
+
+.trainer-line {
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    top: -1px;
+}
+
+.trainer-info {
+    margin-top: 30px;
+}
+
+.trainer-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.trainer-img img {
+    width: 100%;
+    transform: scale(1);
+    transition: ease 0.4s;
+}
+
+.trainer-img img:hover {
+    transform: scale(1.2);
+    transition: ease 0.4s;
+}
+
+.trainer-name {
+    margin: 10px 0 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.trainer-des {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.line-train {
+    margin: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.trainer-email {
+    color: #fc3c2a;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.trainer-info a {
+    text-decoration: none;
+}
+
+.trainer-email:hover {
+    color: #c01000;
+}
+
+.trainer-mobie {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.trainer-contact a {
+    color: #e6e6e6;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.trainer-contact a:hover {
+    color: #fc3c2a;
+}
+
+.line-bot {
+    margin: 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.ringt-main {
+    margin-top: -50px;
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
+.right-title {
+    font-size: 26px;
+    margin: 0 20px;
+}
+
+.line-right {
+    margin: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.class-info {
+    list-style: none;
+    padding: 20px;
+}
+
+.class-item {
+    display: flex;
+    font-size: 14px;
+}
+
+.class-item p {
+    width: 50%;
+    display: block;
+    margin-top: 0;
+}
+
+
+/* circle persen */
+
+.lever {
+    margin-top: 24px;
+    margin-left: 60px;
+}
+
+.persen-munber {
+    position: absolute;
+    font-size: 70px;
+    top: 48px;
+    left: 106px;
+    font-weight: 300;
+}
+
+.persen-icon {
+    position: absolute;
+    font-size: 20px;
+    top: 106px;
+    left: 180px;
+    font-weight: 600;
+}
+
+.lever-title {
+    margin-top: 28px;
+    width: 100%;
+    text-align: center;
+}
+
+.lever-title p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
