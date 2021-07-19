@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.gymer-line {
+    margin: 0 auto;
+    width: 1300px;
+    border-bottom: 1px solid #868686;
+}
+
+.gymer-heading {
+    display: block;
+    position: relative;
+    top: 1px;
+    margin: 0 auto;
+    width: 260px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ff0000;
+}
+
+.list-post {
+    margin-top: 50px;
+}
+
+.item-post {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.item-post:last-child {
+    border-bottom: none;
+}
+
+.item-post:hover {
+    background-color: #ebebeb;
+}
+
+.item-post:hover .date-post {
+    color: #e00000;
+}
+
+.date-post {
+    text-align: center;
+    font-size: 60px;
+    color: #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.month-post {
+    text-align: center;
+    font-size: 16px;
+    color: #4b4b4b;
+}
+
+.post-img {
+    overflow: hidden;
+}
+
+.post-img a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    transform: scale(1);
+    transition: ease 0.4s;
+}
+
+.post-img a:hover {
+    transform: scale(1.2);
+    transition: ease 0.4s;
+}
+
+.post-info a {
+    text-decoration: none;
+}
+
+.heading-post-link {
+    display: block;
+    color: #e00000;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.heading-post-link:hover {
+    color: #a30101;
+}
+
+.post-description {
+    font-size: 14px;
+}
+
+.gymer-list-page {
+    margin: 60px auto;
+    padding-top: 20px;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gymer-item-page {
+    margin: 0 8px;
+}
+
+.gymer-item-page a {
+    text-decoration: none;
+}
+
+.gymer-item-page:first-child {
+    margin: 0 26px 0 0;
+}
+
+.gymer-item-page:last-child {
+    margin: 0 0 0 26px;
+}
+
+.gymer-item-page__icon {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #4b4b4b;
+    cursor: pointer;
+}
+
+.gymer-item-page__link {
+    display: block;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: #4b4b4b;
+}
+
+.gymer-item-page__link:hover {
+    color: #fc3c2a;
+}
+
+.gymer-item-page__link.gymer-item-page__link-active {
+    background-color: #fc3c2a;
+    color: #ffffff;
+}
+
+.img-footer {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    padding-top: 90px;
+}
+
+.img-footer::before {
+    content: "";
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img-footer h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 80px;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+
+.img-footer p {
+    position: relative;
+    z-index: 1;
+    font-size: 60px;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
