@@ -83,10 +83,22 @@ app.get("/healthy-life-news", function(req, res) { //route url cho các trang nh
         count: count,
     });
 });
+app.get("/healthy-life-tips", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-life-tips", {
+        count: count,
+    });
+});
+app.get("/healthy-life-thuoc", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-life-thuoc", {
+        count: count,
+    });
+});
 
 
 
-<!-- HEALTHY FOODS -->
+// <!-- HEALTHY FOODS -->
 app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
     count++;
     res.render("healthy-foods", {
@@ -112,5 +124,5 @@ app.get("/virtual-event", function(req, res) { //route url cho các trang nhánh
         count: count,
     });
 });
-<!-- Hết phần Healthy Foods -->
+// <!-- Hết phần Healthy Foods -->
 
