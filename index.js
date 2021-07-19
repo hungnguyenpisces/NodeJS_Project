@@ -42,6 +42,12 @@ app.get("/healthy-life", function (req, res) {   //route url cho các trang nhá
 		count: count,
 	});
 });
+app.get("/healthy-life-news", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("healthy-life-news", {
+		count: count,
+	});
+});
 app.get("/healthy-foods", function (req, res) {   //route url cho các trang nhánh
 	count++;
 	res.render("healthy-foods", {
