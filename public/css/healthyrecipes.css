@@ -1,0 +1,133 @@
+body,h2,h4,h5 {
+    color: #1D262D;
+    font-family: "Fira Sans";}
+
+h1{
+    color: #1D262D;
+    font-family: 'Cookie', cursive;}
+
+h3 {
+    font-family: "Fira Sans";
+    padding: 0 10px;
+    margin-top: 5px;
+    color: #1D262D;}
+
+.navbar {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    width: border-box}
+
+.description{
+    display: block;
+    margin: -120px auto 50px auto;
+    line-height: 1.8;
+    padding: 30px 25px;
+    text-align: center;
+    background-color: white !important;
+    height: 150px; width: 700px;
+}
+
+.description2 {
+    display: block;
+    margin: -100px auto 50px auto;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+    background-color: white !important;
+    height: 120px;
+    width: 65%;
+}
+
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.description a{text-decoration: none}
+.description a:hover {text-decoration: underline; color: crimson}
+
+.description2 a:hover {text-decoration: underline; color: crimson}
+
+.w3-quarter a{ text-decoration: none}
+.w3-quarter a:hover {text-decoration: underline; color: crimson}
+.w3-quarter img:hover {box-shadow: 3px 3px 10px darkgrey}
+
+.tags {
+    border-style: solid; border-width: 7px; border-color: gainsboro;
+    margin-left: 50px;
+    padding: 16px;
+    width: 270px;
+}
+
+.newsletter {
+    border-style: solid; border-width: 7px; border-color: gainsboro;
+    margin-left: 50px;
+    padding: 16px;
+    width: 270px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.newsletter .btn {
+    background-color: seagreen;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1.1;
+}
+
+.media {
+    margin-top: -30px;
+    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/05/New-Fashioned-Crab-Louie-Salad_98-web.jpg?crop=535:301&width=1070&enable=upscale");
+    background-size: auto;
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.media2 {
+    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/05/Eggplant-Rollups_98-web.jpg?crop=535:301&width=1070&enable=upscale");
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+@media (max-width: 768px) {
+    .media, .media2 {
+        background-size: cover;
+        height: auto;
+    }
+    .w3-quarter .newsletter {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .w3-quarter .tags {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .description, .description2 {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .w3-threequarter {
+        overflow-x: hidden;
+        height: auto;
+    }
+    .menu-headline {
+        margin-top: 80px;
+    }
+}

@@ -4,8 +4,6 @@
     box-sizing: inherit;
 }
 html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
     font-family: 'Fira Sans', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -41,7 +39,7 @@ main {
 
 .header-logo__heading {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: 600;
     font-style: italic;
     position: relative;
@@ -50,7 +48,7 @@ main {
 }
 
 .carotery-mobile-tablet {
-    font-size: 4rem;
+    font-size: 40px;
     color: #ffffff;
     line-height: 80px;
     
@@ -97,7 +95,7 @@ main {
     justify-content: space-between;
     padding: 20px;
     background-color: #000;
-    font-size: 2rem;
+    font-size: 20px;
     font-style: italic;
     color: #fff;
 }
@@ -107,7 +105,7 @@ main {
     display: block;
     text-decoration: none;
     color: #020202;
-    font-size: 2rem;
+    font-size: 20px;
     font-style: italic;
     font-weight: 700;
     width: 100%;
@@ -125,7 +123,7 @@ main {
 }
 
 .header-item__icon-mobi-tab {
-    font-size: 2rem;
+    font-size: 20px;
     display: block;
     margin: 20px;
 }
@@ -154,7 +152,7 @@ main {
 
 .header-item__link {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 600;
     font-style: italic;
@@ -165,7 +163,7 @@ main {
 }
 
 .header-item__icon {
-    font-size: 2rem;
+    font-size: 20px;
     color: #ffffff;
     position: relative;
     top: -2px;
@@ -187,8 +185,8 @@ main {
 
 .banner-top__heading {
     color: #ffffff;
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 60px;
+    line-height: 60px;
     font-style: italic;
     font-weight: 600;
     margin-top: 50px;
@@ -199,8 +197,8 @@ main {
 .banner-top__description {
     color: #ffffff;
     font-style: italic;
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-size: 22px;
+    line-height: 30px;
     margin-left: 450px;
     display: block;
 }
@@ -238,7 +236,7 @@ main {
     left: 0;
     line-height: 58px;
     padding: 0 20px;
-    font-size: 2.8rem;
+    font-size: 28px;
     font-weight: 600;
     font-style: italic;
 }
@@ -259,9 +257,9 @@ main {
     left: 20px;
     width: 150px;
     color: #ffffff;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 20px;
 }
 
 .item-category:hover {
@@ -293,7 +291,7 @@ main {
     padding: 10px 0 0 0;
     width: 100px;
     border: 1px solid #363636;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 500;
     text-align: center  ;   
     color: #363636;
@@ -307,7 +305,7 @@ main {
 .gymer {
     width: 100%;
     margin-top: 0px;
-    padding-top: 160px;
+    padding-top: 200px;
 }
 
 .gymer-line {
@@ -324,7 +322,7 @@ main {
     margin: 0 auto;
     width: 260px;
     text-align: center;
-    font-size: 4rem;
+    font-size: 40px;
     font-weight: 600;
     padding-bottom: 30px;
     border-bottom: 1px solid #ff0000;
@@ -373,8 +371,8 @@ main {
     margin-top: 10px;
     text-decoration: none;
     color: #ff1c07;
-    font-size: 2rem;    
-    line-height: 2.6rem;
+    font-size: 20px;    
+    line-height: 26px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -389,8 +387,8 @@ main {
 .gymer-post-info__description {
     display: block;
     margin-top: 10px;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    font-size: 13px;
+    line-height: 18px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -425,7 +423,7 @@ main {
 .gymer-item-page__icon {
     display: block;
     margin-top: 6px;
-    font-size: 1.2rem;
+    font-size: 12px;
     color: #4b4b4b;
     cursor: pointer;
 }
@@ -434,7 +432,7 @@ main {
     display: block;
     width: 50px;
     height: 30px;
-    font-size: 2rem;
+    font-size: 20px;
     text-decoration: none;
     line-height: 30px;
     text-align: center;
@@ -503,7 +501,7 @@ main {
     width: 240px;
     text-align: center;
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 40px;
     padding-bottom: 30px;
     border-bottom: 1px solid #0000ff;
     color: #000;
@@ -569,8 +567,8 @@ main {
     left: 45%;
     width: 50%;
     color: #8c9ede;
-    font-size: 5rem;
-    line-height: 7rem;
+    font-size: 50px;
+    line-height: 70px;
     font-style: italic;
 }
 
@@ -581,8 +579,8 @@ main {
 
 .yoga-post-heading h3 {
     margin: 0 30px;
-    font-size: 2.6rem;
-    line-height: 3.6rem;
+    font-size: 26px;
+    line-height: 36px;
     color: #0000ff;
     overflow: hidden;
     display: -webkit-box;
@@ -597,8 +595,8 @@ main {
 
 .yoga-post-description {
     margin: 0 30px 30px;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
+    font-size: 16px;
+    line-height: 26px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -654,7 +652,7 @@ main {
     width: 240px;
     text-align: center;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 40px;
     padding-bottom: 30px;
     border-bottom: 1px solid #008000;
     color: #000;
@@ -702,8 +700,8 @@ main {
     margin-top: 20px;
     text-decoration: none;
     color: #008000;
-    font-size: 2rem;    
-    line-height: 2.6rem;
+    font-size: 20px;    
+    line-height: 26px;
     position: relative;
     overflow: hidden;
     display: -webkit-box;
@@ -735,8 +733,8 @@ main {
 .arobic-post-info__description {
     display: block;
     margin-top: 16px;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    font-size: 13px;
+    line-height: 18px;
     margin-bottom: 16px;
     overflow: hidden;
     display: -webkit-box;
@@ -772,7 +770,7 @@ main {
 .arobic-footer h1 {
     position: relative;
     z-index: 1;
-    font-size: 8rem;
+    font-size: 80px;
     color: #ffffff;
     font-style: italic;
     text-align: center;
@@ -783,7 +781,7 @@ main {
     position: relative;
  
     z-index: 1;
-    font-size: 6rem;
+    font-size: 60px;
     color: #ffffff;
     font-style: italic;
     text-align: center;
