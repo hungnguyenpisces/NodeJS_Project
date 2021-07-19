@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>BNGW project F4-Team</title>
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://albertoroura.com/wp-content/uploads/2014/05/html5_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        font-family: "Fira Sans", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Begin header -->
+    <!-- Begin modal -->
+    <div class="modal fade" id="header-modal">
+      <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -50px;">
+        <div class="modal-content" style="padding: 20px;">
+          <div class="container">
+            <h2>Sign In / Sign Up</h2>
+            <form action="#">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-success">Sign In</button>
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+          </div>
+          <!-- End modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="grid wide">
+        <div class="row">
+          <div class="header__logo col l-3 md-3 c-10">
+            <a href="/home.html"><img src="images/logo-final.png" alt=""></a>
+          </div>
+          <div class="header__menu col l-9 md-9 c-0">
+            <ul>
+              <li class="dropdown">
+                <a href="/menu-gym-yoga-dance.html" class="dropbtn"><i class="fas fa-dumbbell"></i> <span
+                    class="hideOnMobile hideOnTablet">Be Stronger</span></a>
+                <div class="dropdown-content">
+                  <a href="/gym.html">GYM</a>
+                  <a href="/yoga.html">YOGA</a>
+                  <a href="/arobic.html">AEROBIC</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="/haidm-index.html" class="dropbtn"><i class="fab fa-pagelines fa-lg"></i> <span
+                    class="hideOnMobile hideOnTablet">Healthy Life</span></a>
+                <div class="dropdown-content">
+                  <a href="haidm-page-news.html">News</a>
+                  <a href="haidm-page-tips.html">Tips</a>
+                  <a href="haidm-page-thuoc.html">Functional Foods</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="/mngan-main-page.html" class="dropbtn"><i class="fas fa-seedling fa-lg"></i> <span
+                    class="hideOnMobile hideOnTablet">Healthy Foods</span></a>
+                <div class="dropdown-content">
+                  <a href="healthy-recipes.html">Healthy Recipes</a>
+                  <a href="nutrition-facts.html">Nutrition Facts</a>
+                  <a href="mngancountdown.html">Event</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="/calc.html" class="dropbtn"><i class="fas fa-heartbeat"></i> <span
+                    class="hideOnMobile hideOnTablet">Health Calculators</span></a>
+                <div class="dropdown-content">
+                  <a href="/calc.html">Body Mass Index (BMI)</a>
+                  <a href="/calc.html">Ideal Body Weight</a>
+                  <a href="/calc.html">Daily Calorie Intake</a>
+                  <a href="/calc.html">Calories Burned</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+                <div class="dropdown-content">
+                  <a href="userDashboard.html">User Dashboard</a>
+                  <a href="userDashboard.html">Link 2</a>
+                  <a href="userDashboard.html">Link 3</a>
+                </div>
+              </li>
+
+              <li class="dropdown">
+                <a data-toggle="dropdown" href="#"><i class="fas fa-search fa-lg"></i></a>
+                <div class="dropdown-menu dropdown-menu-right mt-4 p-3" style="min-width: 320px;">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn btn-success" type="submit"><i class="fas fa-search fa-lg"></i></button>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+              <li>
+                <a data-toggle="modal" data-target="#header-modal" href="#"><i
+                    class="fas fa-address-card fa-lg"></i></a>
+              </li>
+            </ul>
+          </div>
+          <label for="mobile__menu-check" class="mobile__menu-btn col l-0 md-0 c-2">
+            <i class="fas fa-bars fa-lg  "></i>
+          </label for="mobile__menu-check">
+          <input type="checkbox" hidden name="" id="mobile__menu-check">
+          <label for="mobile__menu-check" class="mobile-overlay"></label>
+          <div class="mobile__menu">
+            <label for="mobile__menu-check" class="mobile__menu-close ">
+              <i class="fas fa-times fa-lg  "></i>
+            </label>
+            <ul>
+              <li><input type="text" name="search" placeholder="Search" id="" class="form-control" /></li>
+              <li><a href="/home.html"><i class="fas fa-home fa-lg"></i> Home</a></li>
+              <li><a data-toggle="modal" data-target="#header-modal" href="#"><i class="fas fa-address-card fa-lg"></i>
+                  Sign In / Sign Up</a></li>
+              <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
+              <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
+              <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
+              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End header -->
+
+
+    <!-- Begin slider -->
+    <div id="slider" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+      uk-slideshow="ratio: 8:3; autoplay: true; min-height: 400; animation: push" style="margin-top: 72px;">
+
+      <ul class="uk-slideshow-items">
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+            <img src="images/slide1.jpg" alt="" uk-cover>
+
+          </div>
+          <div class="uk-position-center uk-position-small uk-text-center" style="text-shadow: 0 0 2px #333;">
+            <h1 uk-slideshow-parallax="x: 100,-100">"Tài sản đầu tiên là sức khỏe."</h1>
+            <h3 uk-slideshow-parallax="x: -200,200"><i>- Ralph Waldo Emerson-</i></h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+            <img src="images/slide2.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-bottom-left uk-position-small uk-text-left" style="text-shadow: 0 0 2px #333;">
+            <h1 uk-slideshow-parallax="y: -100,0,0; opacity: 1,1,0">"Để hưởng thụ vầng hào quang của sức khỏe tốt, bạn
+              phải luyện tập."</h1>
+            <h3 uk-slideshow-parallax="y: 100,0,0; opacity: 1,1,0"><i>-Gene Tunney-</i></h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+            <img src="images/slide3.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-top-right uk-position-small uk-text-right" style="text-shadow: 0 0 2px #333;">
+            <h1 uk-slideshow-parallax="x: 100,-100">"Tôi thích ăn đồ ăn tốt cho sức khỏe, bởi tôi đáng được như thế."
+            </h1>
+            <h3 uk-slideshow-parallax="x: 200,-200"><i>-Katrina Mayer-</i></h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+            <img src="images/slide4.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-top-left uk-position-small uk-text-left" style="text-shadow: 0 0 2px #333;">
+            <h1 uk-slideshow-parallax="y: -100,0,0; opacity: 1,1,0">"Sức khỏe tốt và trí tuệ minh mẫn là hai điều hạnh
+              phúc nhất của cuộc đời."</h1>
+            <h3 uk-slideshow-parallax="y: 100,0,0; opacity: 1,1,0"><i>-Publilius Syrus-</i></h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+            <img src="images/slide5.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-bottom-right uk-position-small uk-text-right" style="text-shadow: 0 0 2px #333;">
+            <h1 uk-slideshow-parallax="x: 100,-100">"Bề ngoài khỏe khoắn bắt đầu từ bên trong."</h1>
+            <h3 uk-slideshow-parallax="x: 200,-200"><i>-Robert Urich-</i></h3>
+          </div>
+        </li>
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+        uk-slideshow-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+        uk-slideshow-item="next"></a>
+    </div>
+    <!-- End slider -->
+
+    <!-- Begin footer -->
+    <div id="footer">
+      <div class="row">
+        <div class="col l-3 md-6 c-12">
+          <h3><i class="fas fa-user-friends"></i> <b>ABOUT US</b> </h3>
+          <p>
+            Mollit quis mollit sint magna deserunt magna duis excepteur Lorem
+            laboris in tempor. Quis occaecat consectetur pariatur eiusmod Lorem.
+            Ex nulla et cillum veniam ullamco duis dolor. Est qui non ullamco
+            laborum adipisicing eiusmod anim. In sint quis consequat aliquip
+            occaecat voluptate magna consectetur in consectetur nulla anim ad.
+          </p>
+        </div>
+        <div class="col l-3 md-6 c-12">
+          <h3><i class="fas fa-info"></i> <b>INFO</b></h3>
+          <ul>
+            <li><i class="fas fa-map-marked-alt fa-lg"></i> Hanoi, Vietnam</li>
+            <li><i class="fas fa-phone-alt fa-lg"></i> +123 456 789</li>
+            <li><i class="fas fa-fax fa-lg"></i> +987 654 3210</li>
+            <li><i class="fas fa-envelope fa-lg"></i> Email@email.com</li>
+            <li><i class="fas fa-globe-asia fa-lg"></i> www.website.com.vn</li>
+          </ul>
+        </div>
+        <div class="col l-3 md-6 c-12">
+          <h3><i class="fas fa-link"></i> <b>LINKS</b></h3>
+          <ul>
+            <li>
+              <a href="./home.html"><i class="fas fa-home fa-lg"></i> Home</a>
+            </li>
+            <li>
+              <a data-toggle="modal" data-target="#header-modal" href="#"><i class="fas fa-address-card fa-lg"></i> Sign
+                In / Sign Up</a>
+            </li>
+            <li>
+              <a href="./haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
+            </li>
+            <li>
+              <a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
+            </li>
+            <li>
+              <a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a>
+            </li>
+            <li>
+              <a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col l-3 md-6 c-12">
+          <h3><i class="fas fa-project-diagram"></i> <b>CONNECT WITH US</b></h3>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your email" />
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">
+                <i class="fas fa-check fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+            <a href="#"><i class="fab fa-google-plus fa-3x"></i></a>
+            <a href="#"><i class="fab fa-skype fa-3x"></i></a>
+            <a href="#"><i class="fab fa-snapchat-ghost fa-3x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #ccc;justify-content: space-between;">
+        <div>Powered by <a href="#"><b>F4-Team</b></a></div>
+        <div>500: lượt truy cập</div>
+      </div>
+    </div>
+    <!-- End footer -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js"></script>
+
+  </body>
+
+</html>

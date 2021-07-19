@@ -1,0 +1,146 @@
+#header {
+	color: black;
+	width: 100%;
+	height: 72px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	line-height: 72px;
+	z-index: 1000;
+	border-bottom: 1px solid #ccc;
+	font-family: "Fira Sans", sans-serif !important;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	transition: all 0.25s;
+}
+#header li {
+	list-style: none;
+}
+#header a {
+	color: black;
+	text-decoration: none;
+}
+#header a:hover {
+	color: green;
+}
+
+.header__logo img {
+	height: 60px;
+}
+.header__menu ul {
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	justify-content: end;
+	gap: 36px;
+	margin: 0;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 0 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+#header-modal {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px) saturate(100%);
+	font-size: 1rem;
+}
+
+.mobile__menu-btn {
+	font-size: 24px;
+	text-align: center;
+}
+.mobile-overlay {
+	z-index: 100 !important;
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.25);
+	animation: fadeIn linear 0.25s;
+}
+.mobile__menu {
+	z-index: 999 !important;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 60px 24px;
+	width: 320px;
+	max-width: 100%;
+	background-color: #fff;
+	transform: translateX(100%);
+	opacity: 0;
+	transition: all linear 0.025s;
+}
+.mobile__menu-close {
+	font-size: 24px;
+	position: absolute;
+	top: -6px;
+	right: 12px;
+}
+#mobile__menu-check:checked ~ .mobile-overlay {
+	display: block;
+}
+#mobile__menu-check:checked ~ .mobile__menu {
+	transform: translateX(0%);
+	opacity: 1;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Mobile */
+@media (max-width: 739px) {
+	.hideOnMobile {
+		display: none;
+	}
+	.header__logo {
+		padding-left: 24px;
+	}
+}
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1234px) {
+	.hideOnTablet {
+		display: none;
+	}
+	.header__menu ul {
+		gap: 48px;
+	}
+}
