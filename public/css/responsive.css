@@ -1,0 +1,251 @@
+/* Low PC Resolution */
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+
+}
+
+
+/* Mobile and Tablet */
+@media  (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .carotery-mobile-tablet {
+        display: block;
+    }
+    .banner-top {
+        height: 400px;
+    }
+
+    .banner-top__heading {
+        font-size: 4rem;
+        line-height: 4rem;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0;
+      
+    }
+
+    .banner-top__description {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .yoga {
+        margin-top: -50px;
+        padding-top: 120px;
+    }
+    .arobic {
+        margin-top: -50px;
+        padding-top: 120px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .header-logo a{
+        height: 80px;
+    }
+    
+    .gymer {
+        margin-top: 600px;
+        padding-top: 130px;
+    }
+
+    .gymmer-footer {
+        height: 250px;
+    }
+
+    .gymmer-footer-img2 {
+        height: 250px;
+        left: 0;
+    }
+
+    .gymmer-footer-img1 {
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+    
+    .gymmer-footer-img3 {
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        left: 60%;
+    }
+
+    .yoga-footer {  
+        height: 400px;
+    }
+    
+    .yoga-footer-desctiption {
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        padding: 0 10%;
+        width: 100%;
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .arobic-footer {
+        height: 300px;
+        padding-top: 80px;
+    }
+    
+    .arobic-footer::before {
+        height: 300px;
+    }
+    
+    .arobic-footer h1 {
+        font-size: 6rem;  
+    }
+    
+    .arobic-footer p {
+        font-size: 4rem;
+    }
+   
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .header-logo a{
+        height: 80px;
+        padding-left: 10px;
+    }
+
+    .header-logo__img {
+        width: 40px;
+    }
+
+    .header-logo__heading {
+        font-size: 2.5rem;
+        top: 9px;
+    }
+
+    .carotery-mobile-tablet {
+        font-size: 3rem;
+        position: relative;
+        right: 16px;
+    }
+
+    .header-list-mobi-tab {
+        width: 280px;
+    }
+
+    .header-item__link-mobi-tab {
+        font-size: 1.6rem;
+    }
+
+    .gymer {
+        margin-top: 600px;
+        padding-top: 130px;
+    }
+
+    .gymer-heading {
+        font-size: 3.6rem;
+    }
+
+    .gymer-post-info__heading {
+        padding: 0 10px;
+    }
+
+    .gymer-post-info__description {
+        padding: 0 10px;
+    }
+
+    .gymer-item-page {
+        margin: 0 4px;
+    }
+
+    .gymer-item-page:first-child {
+        margin: 0 16px 0 0;
+    }
+    
+    .gymer-item-page:last-child {
+        margin: 0 0 0 16px;
+    }
+
+    .gymer-item-page__icon {
+        font-size: 1rem;
+    }
+
+    .gymmer-footer {
+        height: 200px;
+    }
+
+    .gymmer-footer-img2 {
+        height: 200px;
+        left: 0;
+    }
+
+    .gymmer-footer-img1 {
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+    }
+    
+    .gymmer-footer-img3 {
+        display: none;
+    }
+
+    .yoga-heading {
+        font-size: 3.6rem;
+    }
+
+    .yoga-footer {  
+        height: 200px;
+    }
+    
+    .yoga-footer-desctiption {
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        padding: 0 10%;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .arobic-footer {
+        height: 250px;
+        padding-top: 60px;
+    }
+    
+    .arobic-footer::before {
+        height: 250px;
+    }
+    
+    .arobic-footer h1 {
+        font-size: 4rem;  
+    }
+    
+    .arobic-footer p {
+        font-size: 3rem;
+        margin-top: 20px;
+        line-height: 4rem;
+    }
+}

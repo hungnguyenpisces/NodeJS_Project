@@ -30,3 +30,21 @@ app.get("/calc", function (req, res) {   //route url cho các trang nhánh
 		count: count,
 	});
 });
+app.get("/be-stronger", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("be-stronger", {
+		count: count,
+	});
+});
+app.get("/healthy-life", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("healthy-life", {
+		count: count,
+	});
+});
+app.get("/healthy-foods", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("healthy-foods", {
+		count: count,
+	});
+});
