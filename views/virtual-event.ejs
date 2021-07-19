@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Virtual Event F4-Team</title>
+
+    <%- include('head') %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/virtualevent.css">
+    <!-- Custom style -->
+
+    <!-- End style -->
+</head>
+
+<body>
+
+<header>
+    <%- include('header')%>
+</header>
+
+<main>
+    <!-- Navbar -->
+    <div class="container" style="margin-top: 100px">
+        <div class="navbar" style="letter-spacing: 2px; text-align: center">
+            <a href="#" class="w3-bar-item w3-button">Healthy Recipes</a>
+            <a href="#" class="w3-bar-item w3-button">Nutrition Facts</a>
+            <a href="#" class="w3-bar-item w3-button">Our Virtual Event</a>
+        </div>
+    </div>
+
+    <!-- !PAGE COUNTDOWN! -->
+    <div class="container">
+        <div class="row" style="display: block; margin: auto">
+            <h1> Join our free Healthy Eating webinar!</h1>
+            <div class="description" style="padding: 20px; line-height: 1.7; font-size: 15px; text-align: center">
+                <p> <i> It’s challenging to cook and eat healthy meals at the best of times.
+                        But now that we’re staying home and reducing trips to the supermarket, it’s all too easy
+                        to slip into bad habits and to let your healthy eating goals slide.
+                    </i></p>
+                <p><i>The F4 Team would like to help. Join us for our FREE Healthy Eating Webinar,
+                        hosted by our team members and featured amazing guest speakers! You’ll learn helpful tips and tricks on how to eat well
+                        during this pandemic. </i></p>
+                <h3>Time: 9:00 (GMT+7) Sunday, August 22, 2021</h3>
+                <h3>Location: Zoom Meeting</h3>
+            </div>
+        </div>
+
+        <div id="countDown">
+            <div class="row" style="text-align: center">
+                <!-- DAYS -->
+                <div class=" dash col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                    <div class="digit"><div class="top" style="display: none;">0</div>
+                        <div class="bottom" style="display: block;" id="days"></div>
+                    </div>
+                    <span class="dash_title">Days</span>
+                </div>
+                <!-- HOURS -->
+                <div class=" dash col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                    <div class="digit"><div class="top" style="display: none;">0</div>
+                        <div class="bottom" style="display: block;" id="hours"></div>
+                    </div>
+                    <span class="dash_title">Hours</span>
+                </div>
+                <!-- MINUTES -->
+                <div class="dash col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                    <div class="digit"><div class="top" style="display: none;">0</div>
+                        <div class="bottom" style="display: block;" id="minutes"></div>
+                    </div>
+                    <span class="dash_title">Minutes</span>
+                </div>
+                <!-- SECONDS -->
+                <div class="dash col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                    <div class="digit"><div class="top" style="display: none;">0</div>
+                        <div class="bottom" style="display: block;" id="seconds"></div>
+                    </div>
+                    <span class="dash_title">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="margin-top: 30px">
+
+    <!-- Form on image -->
+    <div class="bg-img">
+        <form method="post" class="register">
+            <h1 style="line-height: 1.2;">Pre-register for our Webinar</h1>
+
+            <label><b>Enter your name</b></label>
+            <input type="text" placeholder="Your Name" name="name" required>
+
+            <label><b>Enter your Email</b></label>
+            <input type="text" placeholder="Your Email" name="email" required>
+
+            <button type="submit" class="btn">PRE-REGISTER</button>
+        </form>
+    </div>
+    <div class="reminder">
+        <p style="padding: 10px"><i>After you pre-register, the Zoom meeting link and password to our event
+                will be sent to your email within 48 hours. We will also send you a notification the day
+                before our event!</i></p>
+    </div>
+    <hr>
+
+    <!-- FEATURES -->
+    <h1> Why you should join our Virtual Event? </h1>
+    <section class="features parallax" id="features">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"></div>
+                        <h4>High Quality</h4>
+                        <p>F4 Team's approach to providing accessible, science-backed healthy living advice that extends beyond food and diet—to areas like sleep, stress, and exercise. </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"><i></i></div>
+                        <h4>Stay Connected</h4>
+                        <p>The event is VIRTUAL, meaning that you could attend it in the comforts of your home, but we still provide a lot of interaction and question time to connect you with our speakers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="features-box">
+                        <div class="open-overlay"><i class="icon-circle-compass"></i></div>
+                        <h4>Our Gift</h4>
+                        <p>Upon attending our virtual webinar, you will receive our Online Handbook: <i>Eating Well in the Pandemic</i>, written by the F4 Team, with advice from the Nutritious Life Group.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- GUEST -->
+    <div class="w3-container w3-center" id="event">
+        <h1> Our Guest Speaker </h1><br>
+        <img src="images/guest.jpg" alt="Guest" class="w3-image" style="display:block;margin:auto" width="810" height="540">
+        <div class="w3-padding-32">
+            <h3><b>Keri Glassman, </b></h3>
+            <h5><i>MS, RD, CDN, is a renowned celebrity nutritionist, healthy cooking expert, and wellness thought-leader.</i></h5>
+            <ul class="achievements">
+                <li>Founder and CEO of Nutritious Life, a lifestyle and media company devoted to helping individuals discover and live their most nutritious (and happiest!) lives, which received a 2018 Webby Award honoree for Best Health Website.</li>
+                <li>BSc in Nutrition from Tufts University and MSc in Clinical Nutrition from New York University.</li>
+                <li>20 years of experience in counseling clients, building businesses, and mentoring up and coming wellness professionals. </li>
+                <li>Author of four books about healthy lifestyle and nutrition: The New You and Improved Diet (Rodale, Dec 2012), Slim Calm Sexy Diet (Rodale, March 2012), The O2 Diet (Rodale, Dec 2009), and The Snack Factor Diet (Crown, 2007).</li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <%- include('footer') %>
+</footer>
+
+<!-- Custom JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js"></script>
+<!-- End JS library -->
+
+<script>
+
+    (function () {
+        const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+
+        countDown = new Date("Aug 22, 2021 09:00:00").getTime(),
+            x = setInterval(function() {
+
+                let now = new Date().getTime(),
+                    distance = countDown - now;
+
+                document.getElementById("days").innerText = Math.floor(distance / (day)),
+                    document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                    document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                    document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                if (distance < 0)
+                {
+                    let headline = document.getElementById("headline"),
+                        countdown = document.getElementById("countdown"),
+                        content = document.getElementById("content");
+
+                    headline.innerText = "The event has passed! Stay tuned for other events!";
+                    countdown.style.display = "none";
+                    content.style.display = "block";
+
+                    clearInterval(x);
+                }
+            }, 0)
+    }());
+
+</script>
+</body>
+
+</html>
