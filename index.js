@@ -1,7 +1,7 @@
 var express = require("express");
 var morgan = require("morgan");
 var app = express();
-var port = 7000;
+var port = process.env.PORT || 7000;
 
 app.use(morgan("dev"));
 
