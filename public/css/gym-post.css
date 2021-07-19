@@ -292,7 +292,6 @@ html {
     margin-top: 20px;
     text-decoration: none;
     color: #ff0000;
-    font-size: 20px;
     line-height: 26px;
     position: relative;
     overflow: hidden;
@@ -300,6 +299,10 @@ html {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     text-overflow: ellipsis;
+}
+
+.related-post-info__heading h3 {
+    font-size: 20px;
 }
 
 .related-post-info_line {
