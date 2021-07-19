@@ -1,9 +1,6 @@
 var express = require("express");
-var morgan = require("morgan");
 var app = express();
 var port = process.env.PORT || 7000;
-
-app.use(morgan("dev"));
 
 app.listen(port, function () {
 	console.log("Server is runing...");
