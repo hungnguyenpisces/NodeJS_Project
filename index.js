@@ -8,7 +8,7 @@ app.listen(port, function () {
 
 app.use(express.static("public")); //cấp quyền cho user truy cập các file trong thư mục public
 app.set("view engine", "ejs");
-var count = 0;
+var count = 13579;
 
 
 app.get("/", function (req, res) { //route homepage url
