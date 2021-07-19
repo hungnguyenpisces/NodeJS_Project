@@ -30,18 +30,47 @@ app.get("/calc", function(req, res) { //route url cho các trang nhánh
         count: count,
     });
 });
+
+
 app.get("/be-stronger", function(req, res) { //route url cho các trang nhánh
     count++;
     res.render("be-stronger", {
         count: count,
     });
 });
-app.get("/healthy-life", function(req, res) { //route url cho các trang nhánh
+app.get("/gym", function(req, res) { //route url cho các trang nhánh
     count++;
-    res.render("healthy-life", {
+    res.render("gym", {
         count: count,
     });
 });
+app.get("/yoga", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("yoga", {
+        count: count,
+    });
+});
+app.get("/arobic", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("arobic", {
+        count: count,
+    });
+});
+app.get("/gym-post", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("gym-post", {
+        count: count,
+    });
+});
+app.get("/event", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("event", {
+        count: count,
+    });
+});
+
+
+
 
 // <!-- HEALTHY FOODS -->
 app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
@@ -72,12 +101,19 @@ app.get("/virtual-event", function(req, res) { //route url cho các trang nhánh
 // <!-- Hết phần Healthy Foods -->
 
 
-app.get("/gym", function(req, res) { //route url cho các trang nhánh
+app.get("/healthy-life", function(req, res) { //route url cho các trang nhánh
     count++;
-    res.render("gym", {
+    res.render("healthy-life", {
         count: count,
     });
 });
+app.get("/healthy-life-news", function(req, res) { //route url cho các trang nhánh
+    count++;
+    res.render("healthy-life-news", {
+        count: count,
+    });
+});
+
 app.get("/healthy-life-tips", function(req, res) { //route url cho các trang nhánh
     count++;
     res.render("healthy-life-tips", {
@@ -91,34 +127,3 @@ app.get("/healthy-life-thuoc", function(req, res) { //route url cho các trang n
     });
 });
 
-
-
-// <!-- HEALTHY FOODS -->
-app.get("/healthy-foods", function(req, res) { //route url cho các trang nhánh
-app.get("/yoga", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("yoga", {
-        count: count,
-    });
-});
-app.get("/arobic", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("arobic", {
-        count: count,
-    });
-});
-app.get("/gym-post", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("gym-post", {
-        count: count,
-    });
-});
-app.get("/event", function(req, res) { //route url cho các trang nhánh
-    count++;
-    res.render("event", {
-        count: count,
-    });
-});
-// <!-- Hết phần Healthy Foods -->
-
-});
