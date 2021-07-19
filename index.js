@@ -61,3 +61,17 @@ app.get("/healthy-recipes", function (req, res) {   //route url cho các trang n
 		count: count,
 	});
 });
+
+app.get("/nutrition-facts", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("nutrition-facts", {
+		count: count,
+	});
+});
+
+app.get("/virtual-event", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("virtual-event", {
+		count: count,
+	});
+});

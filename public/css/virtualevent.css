@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,h4,h3,p {
+    display: block;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.navbar {
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    width: border-box}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin: 15px 0
+}
+
+hr {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 50px;
+}
+
+@media all and (max-width: 768px) {
+    h1 {font-size: 50px;}
+    h3 {font-size: 20px;}
+    h5 {font-size: 16px;}
+    li span {font-size: 3.375rem;}
+    p {font-size: 14px;}
+}
+
+/* -----------------------------------------------------------------------
+   1. COUNTDOWN
+------------------------------------------------------------------------- */
+
+.home-main {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+#countDown {
+	display: block;
+	margin: 0px auto;
+	overflow: hidden
+}
+.dash {
+	padding-bottom: 10px;
+	position: relative;
+	opacity: 1;
+}
+.dash_title {
+	font-size: 16px;
+	width: 100%;
+	color: #444444;
+	display: block;
+	clear: both;
+}
+.digit {
+	font-size: 60px;
+	font-weight: 300;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	height: 110px;
+	line-height: 110px;
+	position: relative;
+	vertical-align: middle;
+}
+
+@media(max-height:360px) {
+    .digit {
+        font-size: 30px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+@media(max-width:560px) {
+    #countdown_dashboard{
+        min-width: 300px;
+    }
+    .digit{
+        font-size: 30px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .digit{
+        font-size: 40px;
+        height: 80px;
+        line-height: 80px;
+    }
+}
+
+/* -----------------------------------------------------------------------
+   2. FEATURES
+------------------------------------------------------------------------- */
+.features{
+    padding: 90px 0px 90px 0px;
+}
+.features h4{
+    color: #333333;
+}
+
+div.open-overlay {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    -webkit-transition: all .6s ease 0s;
+    -moz-transition: all .6s ease 0s;
+    transition: all .6s ease 0s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    color: coral;
+    border: solid 3px coral;
+    border-radius: 3px;
+}
+.open-overlay {
+    font-size: 28px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.features-box:hover .open-overlay {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    background: coral;
+}
+.features-box:hover .open-overlay i {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    color: #444;
+    font-weight: bold;
+}
+.features-box h4{
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.features-box p{
+    padding-top: 10px;
+}
+@media (max-width: 1000px){
+    .features-box{
+        padding-top: 50px;
+    }
+}
+/*-------------------------------------------------------------------*/
+/*  4. REGISTER FORM
+/*-------------------------------------------------------------------*/
+
+    .bg-img {
+        background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2019/11/one-pot-mediterranean-lemon-chicken-rice_89-web-1.jpg?crop=535:301&width=1070&enable=upscale");
+        min-height: 550px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .register {
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        max-width: 400px;
+        padding: 16px;
+        background-color: white;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    .bg-img .btn {
+        background-color: coral;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.85;
+    }
+
+    .btn:hover {
+        opacity: 1;
+    }
+
+    .reminder {
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        max-width: 700px;
+        height: auto;
+        line-height: 1.7;
+        font-size: 25px;
+    }
+    .reminder:hover {
+        box-shadow: 3px 3px 10px darkgray;
+    }
+/*-------------------------------------------------------------------*/
+/*  5. Guest Speaker
+/*-------------------------------------------------------------------*/
+.achievements {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    max-width: 80%;
+    height: auto;
+    text-align: left;
+    line-height: 1.6;
+}
