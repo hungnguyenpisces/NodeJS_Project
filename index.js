@@ -48,3 +48,10 @@ app.get("/healthy-foods", function (req, res) {   //route url cho các trang nh�
 		count: count,
 	});
 });
+
+app.get("/healthy-recipes", function (req, res) {   //route url cho các trang nhánh
+	count++;
+	res.render("healthy-recipes", {
+		count: count,
+	});
+});
