@@ -99,19 +99,24 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	padding: 60px 24px;
+	padding: 72px 24px;
 	width: 320px;
 	max-width: 100%;
 	background-color: #fff;
 	transform: translateX(100%);
 	opacity: 0;
 	transition: all linear 0.025s;
+	overflow: auto;
+}
+.mobile__menu ul {
+	padding: 0;
+	margin: 0;
 }
 .mobile__menu-close {
 	font-size: 24px;
 	position: absolute;
-	top: -6px;
-	right: 12px;
+	top: 0px;
+	right: 16px;
 }
 #mobile__menu-check:checked ~ .mobile-overlay {
 	display: block;

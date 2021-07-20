@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* margin: 25px 0; */
+    /* margin: 25px 0; */
+    font-family: "Fira Sans" !important ;
+    font-size: 1em;
+    /* color: #ffffff; */
+    /* background-color: #d9ef81; */
+    /* background-image: linear-gradient(to right, #6cbe03, #f4a700); */
+  }
+.w3-quarter img:hover{
+    transform: scale(1.1);
+    transition: 0.85s;
+}
+.menu{
+    font-size: 16px;
+}
+#header{
+    z-index: 1;
+}

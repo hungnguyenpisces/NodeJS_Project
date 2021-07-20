@@ -1,24 +1,25 @@
 <!-- Begin header -->
 <!-- Begin modal -->
 <div class="modal fade" id="header-modal">
-    <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -50px;">
-        <div class="modal-content" style="padding: 20px;">
+    <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -50px">
+        <div class="modal-content" style="padding: 20px">
             <div class="container">
                 <h2>Sign In / Sign Up</h2>
                 <form action="#">
                     <div class="form-group">
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
-                            required>
+                            required />
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password:</label>
                         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
-                            required>
+                            required />
                     </div>
                     <div class="form-group form-check">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            <input class="form-check-input" type="checkbox" name="remember" />
+                            Remember me
                         </label>
                     </div>
                     <button type="submit" class="btn btn-success">Sign In</button>
@@ -26,7 +27,9 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Close
+                </button>
             </div>
         </div>
     </div>
@@ -36,13 +39,13 @@
     <div class="grid wide">
         <div class="row">
             <div class="header__logo col l-3 md-3 c-10">
-                <a href="/"><img src="images/logo-final.png" alt=""></a>
+                <a href="/"><img src="images/logo-final.png" alt="" /></a>
             </div>
             <div class="header__menu col l-9 md-9 c-0">
                 <ul>
                     <li class="dropdown">
-                        <a href="/be-stronger" class="dropbtn"><i class="fas fa-dumbbell"></i> <span
-                                class="hideOnMobile hideOnTablet">Be Stronger</span></a>
+                        <a href="/be-stronger" class="dropbtn"><i class="fas fa-dumbbell"></i>
+                            <span class="hideOnMobile hideOnTablet">Be Stronger</span></a>
                         <div class="dropdown-content">
                             <a href="/gym">GYM</a>
                             <a href="/yoga">YOGA</a>
@@ -51,17 +54,8 @@
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="/healthy-life" class="dropbtn"><i class="fab fa-pagelines fa-lg"></i> <span
-                                class="hideOnMobile hideOnTablet">Healthy Life</span></a>
-                        <div class="dropdown-content">
-                            <a href="/healthy-life-news">News</a>
-                            <a href="haidm-page-tips.html">Tips</a>
-                            <a href="haidm-page-thuoc.html">Functional Foods</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="/healthy-foods" class="dropbtn"><i class="fas fa-seedling fa-lg"></i> <span
-                                class="hideOnMobile hideOnTablet">Healthy Foods</span></a>
+                        <a href="/healthy-foods" class="dropbtn"><i class="fas fa-seedling fa-lg"></i>
+                            <span class="hideOnMobile hideOnTablet">Healthy Foods</span></a>
                         <div class="dropdown-content">
                             <a href="/healthy-recipes">Healthy Recipes</a>
                             <a href="/nutrition-facts">Nutrition Facts</a>
@@ -69,8 +63,17 @@
                         </div>
                     </li>
                     <li class="dropdown">
-                        <a href="/calc" class="dropbtn"><i class="fas fa-heartbeat"></i> <span
-                                class="hideOnMobile hideOnTablet">Health Calculators</span></a>
+                        <a href="/healthy-life" class="dropbtn"><i class="fab fa-pagelines fa-lg"></i>
+                            <span class="hideOnMobile hideOnTablet">Healthy Life</span></a>
+                        <div class="dropdown-content">
+                            <a href="/healthy-life-news">News</a>
+                            <a href="/healthy-life-tips">Tips</a>
+                            <a href="/healthy-life-thuoc">Functional Foods</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/calc" class="dropbtn"><i class="fas fa-heartbeat"></i>
+                            <span class="hideOnMobile hideOnTablet">Health Calculators</span></a>
                         <div class="dropdown-content">
                             <a href="/calc">Body Mass Index (BMI)</a>
                             <a href="/calc">Ideal Body Weight</a>
@@ -89,15 +92,15 @@
 
                     <li class="dropdown">
                         <a data-toggle="dropdown" href="#"><i class="fas fa-search fa-lg"></i></a>
-                        <div class="dropdown-menu dropdown-menu-right mt-4 p-3" style="min-width: 320px;">
+                        <div class="dropdown-menu dropdown-menu-right mt-4 p-3" style="min-width: 320px">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search">
+                                <input type="text" class="form-control" placeholder="Search" />
                                 <div class="input-group-append">
-                                    <button class="btn btn-success" type="submit"><i
-                                            class="fas fa-search fa-lg"></i></button>
+                                    <button class="btn btn-success" type="submit">
+                                        <i class="fas fa-search fa-lg"></i>
+                                    </button>
                                 </div>
                             </div>
-
                         </div>
                     </li>
                     <li>
@@ -106,27 +109,112 @@
                     </li>
                 </ul>
             </div>
+            <!-- Mobile menu -->
             <label for="mobile__menu-check" class="mobile__menu-btn col l-0 md-0 c-2">
-                <i class="fas fa-bars fa-lg  "></i>
-            </label for="mobile__menu-check">
-            <input type="checkbox" hidden name="" id="mobile__menu-check">
+                <i class="fas fa-bars fa-lg"></i>
+            </label>
+            <input type="checkbox" hidden name="" id="mobile__menu-check" />
             <label for="mobile__menu-check" class="mobile-overlay"></label>
             <div class="mobile__menu">
-                <label for="mobile__menu-check" class="mobile__menu-close ">
-                    <i class="fas fa-times fa-lg  "></i>
+                <label for="mobile__menu-check" class="mobile__menu-close">
+                    <i class="fas fa-times fa-lg"></i>
                 </label>
                 <ul>
-                    <li><input type="text" name="search" placeholder="Search" id="" class="form-control" /></li>
-                    <li><a href="/home.html"><i class="fas fa-home fa-lg"></i> Home</a></li>
-                    <li><a data-toggle="modal" data-target="#header-modal" href="#"><i
-                                class="fas fa-address-card fa-lg"></i>
-                            Sign In / Sign Up</a></li>
-                    <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
-                    <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
-                    <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
-                    <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a></li>
+                    <li>
+                        <input type="text" name="search" placeholder="Search" id="" class="form-control" />
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#home">
+                            </a>
+                            <a href="/"> <i class="fas fa-home fa-lg"></i> Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#be-stronger">
+                            </a>
+                            <a href="/be-stronger">
+                                <i class="fas fa-dumbbell"></i> Be Stronger</a>
+                        </div>
+                        <div id="be-stronger" class="collapse">
+                            <a href="/gym" class="dropdown-item">Gym</a>
+                            <a href="/yoga" class="dropdown-item">Yoga</a>
+                            <a href="/arobic" class="dropdown-item">Aerobic</a>
+                            <a href="/event" class="dropdown-item">Event</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#health-life">
+                            </a>
+                            <a href="/healthy-life">
+                                <i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
+                        </div>
+                        <div id="health-life" class="collapse">
+                            <a href="/healthy-life-news" class="dropdown-item">News</a>
+                            <a href="/healthy-life-tips" class="dropdown-item">Típs</a>
+                            <a href="/healthy-life-thuoc" class="dropdown-item">Functional Foods</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#health-foods">
+                            </a>
+                            <a href="/healthy-foods">
+                                <i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
+                        </div>
+                        <div id="health-foods" class="collapse">
+                            <a href="/healthy-recipes" class="dropdown-item">Healthy Recipes</a>
+                            <a href="/nutrition-facts" class="dropdown-item">Nutrition Facts</a>
+                            <a href="/virtual-event" class="dropdown-item">Event</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#health-calc">
+                            </a>
+                            <a href="/calc">
+                                <i class="fas fa-heartbeat"></i> Health Calculators</a>
+                        </div>
+                        <div id="health-calc" class="collapse">
+                            <a class="dropdown-item" href="/calc">Body Mass Index (BMI)</a>
+                            <a class="dropdown-item" href="/calc">Ideal Body Weight</a>
+                            <a class="dropdown-item" href="/calc">Daily Calorie Intake</a>
+                            <a class="dropdown-item" href="/calc">Calories Burned</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#user">
+                            </a>
+                            <a data-toggle="modal" data-target="#header-modal" href="#">
+                                <i class="fas fa-address-card fa-lg"></i> Sign In / Sign Up</a>
+                        </div>
+                        <div id="user" class="collapse">
+                            <a href="/user" class="dropdown-item">User Dashboard</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn-group">
+                            <a class="dropdown-toggle dropdown-toggle-split" data-toggle="collapse"
+                                data-target="#contact-us">
+                            </a>
+                            <a href="#"><i class="fas fa-address-book fa-lg"></i> Contact Us</a>
+                        </div>
+                        <div id="contact-us" class="collapse">
+                            <a href="" class="dropdown-item">Subitem 1</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
+            <!-- End mobile menu -->
         </div>
     </div>
 </div>
