@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="row"
-                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: false">
+                        uk-scrollspy="cls: uk-animation-slide-top; target: .uk-card; delay: 300; repeat: true">
                         <div class="col l-3 md-6 c-12 text-center uk-card uk-card-default uk-card-body">
                             <img src="images/custom-icon-1.png" alt="">
                             <h4><b>Balance Body & Mind</b></h4>
@@ -170,7 +170,7 @@
                             <h2 class="l-12" style="color: green;"><i class="fas fa-leaf fa-lg"></i></h2>
                         </div>
                     </div>
-                    <div class="row articles-cards">
+                    <div class="row articles-cards" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 300; repeat: true">
                         <div class="col l-4 md-4 c-12">
                             <div class="item text-center uk-card uk-card-default">
                                 <img src="images/hc_31.jpg" alt="">
@@ -211,7 +211,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row articles-cards">
+                    <div class="row articles-cards" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 300; repeat: true">
                         <div class="col l-4 md-4 c-12">
                             <div class="item text-center uk-card uk-card-default">
                                 <img src="images/ac1.jpg" alt="">
@@ -252,8 +252,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row no-gutters" style="padding: 24px 0;">
-                        <div class="tab col l-3 md-2 c-12">
+                    <div class="row no-gutters" uk-scrollspy="cls: uk-animation-slide-left; target: .uk-card; delay: 300; repeat: true" style="padding: 24px 0;">
+                        <div class="tab col l-3 md-2 c-12 uk-card">
                             <button class="tablinks" onclick="openCity(event, 'tipTab1')" id="defaultOpen">Get up and
                                 Go</button>
                             <button class="tablinks" onclick="openCity(event, 'tipTab2')">Dare To Be Great</button>
@@ -263,7 +263,7 @@
                             </button>
                             <button class="tablinks" onclick="openCity(event, 'tipTab6')">Healthy Snacks </button>
                         </div>
-                        <div id="tipTab1" class="tabcontent l-9 md-10 c-12"
+                        <div id="tipTab1" class="tabcontent l-9 md-10 c-12 uk-card" uk-scrollspy-class="uk-animation-slide-right" uk-scrollspy="cls:delay: 300; repeat: true"
                             style="background-image: url('images/tab-background-1.jpg');">
                             <h1>Eat Good. Feel Good.</h1>
                             <p>Lorem ipsum dolor sit amet auctor egestas libero arcu. Wisi ante at. Mi pulvinar officiis
