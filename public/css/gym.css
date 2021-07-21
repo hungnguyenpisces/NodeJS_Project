@@ -30,7 +30,7 @@ html {
     text-align: center;
     font-size: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #008000;
 }
 
 .list-post {
@@ -48,11 +48,11 @@ html {
 }
 
 .item-post:hover {
-    background-color: #ebebeb;
+    background-color: #f8f8f8;
 }
 
 .item-post:hover .date-post {
-    color: #e00000;
+    color: #008000;
 }
 
 .date-post {
@@ -91,13 +91,13 @@ html {
 
 .heading-post-link {
     display: block;
-    color: #e00000;
+    color: #008000;
     font-size: 20px;
     margin: 20px 0;
 }
 
 .heading-post-link:hover {
-    color: #a30101;
+    color: #005300;
 }
 
 .post-description {
@@ -150,11 +150,11 @@ html {
 }
 
 .gymer-item-page__link:hover {
-    color: #fc3c2a;
+    color: #008000;
 }
 
 .gymer-item-page__link.gymer-item-page__link-active {
-    background-color: #fc3c2a;
+    background-color: #008000;
     color: #ffffff;
 }
 

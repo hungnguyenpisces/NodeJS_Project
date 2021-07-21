@@ -328,12 +328,12 @@ main {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #008000;
     color: #000;
 }
 
 .row .gymer-heading:hover {
-    color: #ff0000;
+    color: #008000;
 }
 
 .gymer-main {}
@@ -374,7 +374,7 @@ main {
     display: block;
     margin-top: 10px;
     text-decoration: none;
-    color: #ff1c07;
+    color: #008000;
     line-height: 26px;
     overflow: hidden;
     display: -webkit-box;
@@ -388,7 +388,7 @@ main {
 }
 
 .gymer-post-info__heading:hover {
-    color: #bb1102;
+    color: #005500;
 }
 
 .gymer-post-info__description {
@@ -448,11 +448,11 @@ main {
 }
 
 .gymer-item-page__link:hover {
-    color: #fc3c2a;
+    color: #008000;
 }
 
 .gymer-item-page__link.gymer-item-page__link-active {
-    background-color: #fc3c2a;
+    background-color: #008000;
     color: #ffffff;
 }
 
@@ -507,12 +507,12 @@ main {
     font-weight: 600;
     font-size: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #0000ff;
+    border-bottom: 1px solid #008000;
     color: #000;
 }
 
 .row .yoga-heading:hover {
-    color: #0000ff;
+    color: #005500;
 }
 
 .yoga-main {}
@@ -585,7 +585,7 @@ main {
     margin: 0 30px;
     font-size: 26px;
     line-height: 36px;
-    color: #0000ff;
+    color: #008000;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -594,7 +594,7 @@ main {
 }
 
 .yoga-post-heading:hover h3 {
-    color: #0000be;
+    color: #008000;
 }
 
 .yoga-post-description {
@@ -623,12 +623,12 @@ main {
 }
 
 .yoga-item-post-active {
-    background-color: #0000ff;
-    border-color: #0000ff;
+    background-color: #008000;
+    border-color: #008000;
 }
 
 .yoga-item-post:hover {
-    border-color: #0000ff;
+    border-color: #008000;
 }
 
 .yoga-item-post-active {

@@ -48,7 +48,7 @@ html {
 }
 
 .item-post:hover {
-    background-color: #ebebeb;
+    background-color: #f8f8f8;
 }
 
 .item-post:hover .date-post {
