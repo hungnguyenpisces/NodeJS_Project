@@ -49,8 +49,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 .bgimg-1 a {
 	display: inline-block;
@@ -58,14 +58,106 @@
 	color: white;
 	border: 2px solid white;
 	border-radius: 25px;
-    padding: 12px 24px;
+	padding: 12px 24px;
 }
 .bgimg-1 a:hover {
-    background-color: white;
-    color: green;
+	background-color: white;
+	color: green;
 }
 .bgimg-1 {
 	background-image: url("../images/info-block-bg-1-min.jpg");
 	min-height: 512px;
 	color: white;
+}
+.articles-cards {
+	position: relative;
+	margin-top: 24px;
+}
+.articles-cards img {
+	height: 200px;
+	width: fit-content;
+}
+.articles-cards .article-card-content {
+	padding: 12px 24px;
+}
+.articles-cards .article-card-content a {
+	text-decoration: none;
+	color: green;
+}
+.articles-cards .article-card-content a:hover {
+	color: black;
+}
+.articles-cards .article-card-content .article-card-icon {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	background-color: #fff;
+	color: #4fbf70;
+	font-size: 25px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.tab {
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #f1f1f1;
+	height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	display: block;
+	background-color: white;
+	color: black;
+	padding: 22px 16px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	outline: none;
+	text-align: right;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+	background-color: #fafafa;
+	color: green;
+	font-weight: 700;
+	border-right: 5px solid green;
+}
+
+/* Style the tab content */
+.tabcontent {
+	float: left;
+	padding: 24px 48px;
+	border: 1px solid #ccc;
+	border-left: none;
+	height: auto;
+}
+.tabcontent li {
+	list-style: none;
+}
+.tabcontent .fas {
+	display: inline-block;
+	color: green;
+}
+.tabcontent p {
+	display: inline-block;
+    margin: 4px;
 }
