@@ -79,7 +79,7 @@ html {
     border-bottom: 1px solid #dadada;
 }
 
-.ringt-bar-icon {
+.right-bar-icon {
     font-size: 20px;
     display: inline-block;
     color: #dadada;
@@ -99,7 +99,7 @@ html {
     text-decoration: none;
     padding: 10px 0;
     font-size: 18px;
-    color: red;
+    color: #008000;
     padding-left: 10px;
     border-bottom: 1px solid #dadada;
 }
@@ -131,7 +131,7 @@ html {
 }
 
 .item-train:first-child i {
-    color: red;
+    color: #008000;
     margin-left: 10px;
 }
 
@@ -151,7 +151,7 @@ html {
     left: 0px;
     border-style: solid;
     border-width: 72px 45px;
-    border-color: #fc3c2a transparent transparent #fc3c2a;
+    border-color: #008000 transparent transparent #008000;
     transform: translateX(-100px);
     transition: ease 0.4s;
 }
@@ -205,7 +205,7 @@ html {
 .train-title a {
     padding-left: 10px;
     text-decoration: none;
-    color: red;
+    color: #008000;
     font-size: 16px;
     line-height: 100%;
     display: block;
@@ -213,7 +213,7 @@ html {
 }
 
 .train-title a:hover {
-    color: rgb(180, 2, 2);
+    color: #005c00;
 }
 
 .item-train-last {
@@ -244,7 +244,7 @@ html {
     font-weight: 500;
     font-size: 40px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #008000;
     color: #000;
 }
 
@@ -252,8 +252,6 @@ html {
 /* .row .related-heading:hover {
     color: #005800;
 } */
-
-.related-main {}
 
 .related-post-info {
     margin-top: 40px;
@@ -291,7 +289,7 @@ html {
     display: block;
     margin-top: 20px;
     text-decoration: none;
-    color: #ff0000;
+    color: #008000;
     line-height: 26px;
     position: relative;
     overflow: hidden;
@@ -318,11 +316,11 @@ html {
     top: 0;
     left: 0;
     width: 60px;
-    border-bottom: 1px solid #ff0000;
+    border-bottom: 1px solid #008000;
 }
 
 .related-post-info__heading:hover {
-    color: #b60101;
+    color: #005d00;
 }
 
 .related-post-info__description {
@@ -413,7 +411,7 @@ html {
     width: 100%;
     height: 40px;
     background-color: #fae20d;
-    color: #ff0000;
+    color: #008000;
     font-size: 14px;
     font-weight: 500;
     border: none;
