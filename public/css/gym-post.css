@@ -79,7 +79,7 @@ html {
     border-bottom: 1px solid #dadada;
 }
 
-.ringt-bar-icon {
+.right-bar-icon {
     font-size: 20px;
     display: inline-block;
     color: #dadada;
@@ -252,8 +252,6 @@ html {
 /* .row .related-heading:hover {
     color: #005800;
 } */
-
-.related-main {}
 
 .related-post-info {
     margin-top: 40px;
