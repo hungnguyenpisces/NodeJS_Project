@@ -81,14 +81,14 @@
 	color: white;
 }
 .bgimg-2::before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .articles-cards {
 	position: relative;
@@ -182,3 +182,12 @@
 	display: inline-block;
 	margin: 4px;
 }
+.filterDiv {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
