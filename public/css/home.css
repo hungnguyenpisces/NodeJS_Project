@@ -49,10 +49,13 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
-	align-items: center;
 }
-.bgimg-1 a {
+.bgimg-1 h4,
+.bgimg-2 h4 {
+	color: white;
+}
+.bgimg-1 a,
+.bgimg-2 a {
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -60,13 +63,21 @@
 	border-radius: 25px;
 	padding: 12px 24px;
 }
-.bgimg-1 a:hover {
+.bgimg-1 a,
+.bgimg-2 a:hover {
 	background-color: white;
 	color: green;
 }
 .bgimg-1 {
 	background-image: url("../images/info-block-bg-1-min.jpg");
 	min-height: 512px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.bgimg-2 {
+	background-image: url("../images/bgimg-2.jpg");
+	min-height: 750px;
 	color: white;
 }
 .articles-cards {
@@ -159,5 +170,5 @@
 }
 .tabcontent p {
 	display: inline-block;
-    margin: 4px;
+	margin: 4px;
 }
