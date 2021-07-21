@@ -2,6 +2,11 @@ var express = require("express");
 var app = express();
 var port = process.env.PORT || 7000;
 
+//only for localhost debug
+// var morgan = require("morgan");
+// app.use(morgan('dev'));
+//comment before commit
+
 app.listen(port, function() {
     console.log("Server is runing...");
 });
