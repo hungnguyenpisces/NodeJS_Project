@@ -34,10 +34,38 @@
 .slide-cards .slide-card-content .slide-card-icon img {
 	position: relative;
 	display: block;
-    width: 50%;
+	width: 50%;
 	top: 50%;
 	margin: 0 auto;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.bgimg-1 a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+    padding: 12px 24px;
+}
+.bgimg-1 a:hover {
+    background-color: white;
+    color: green;
+}
+.bgimg-1 {
+	background-image: url("../images/info-block-bg-1-min.jpg");
+	min-height: 512px;
+	color: white;
 }
