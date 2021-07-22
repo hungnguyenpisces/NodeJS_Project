@@ -51,11 +51,13 @@
 	background-size: cover;
 }
 .bgimg-1 h4,
-.bgimg-2 h4 {
+.bgimg-2 h4,
+.bgimg-3 h4 {
 	color: white;
 }
 .bgimg-1 a,
-.bgimg-2 a {
+.bgimg-2 a,
+.bgimg-3 a {
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -63,8 +65,9 @@
 	border-radius: 25px;
 	padding: 12px 24px;
 }
-.bgimg-1 a,
-.bgimg-2 a:hover {
+.bgimg-1 a:hover,
+.bgimg-2 a:hover,
+.bgimg-3 a:hover {
 	background-color: white;
 	color: green;
 }
@@ -89,6 +92,21 @@
 	right: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
+}
+.bgimg-3 {
+	background-image: url("../images/ambition-success-190801.jpg");
+	min-height: 960px;
+	color: white;
+}
+.bgimg-3::before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.25);
 }
 .articles-cards {
 	position: relative;
@@ -189,5 +207,3 @@
 .show {
 	display: block;
 }
-
-
