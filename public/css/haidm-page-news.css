@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
   }
-
 .container{
     margin-top: -10px;
 }
@@ -51,7 +50,8 @@
 }
 .content-beauty h3{
     margin-top: 20px;
-    text-align: center;
+    margin-left: -50px;
+    font-weight: 500;
 }
 .content-beauty figcaption{
     width: 450px;
