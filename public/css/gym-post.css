@@ -125,6 +125,7 @@ html {
 
 .item-train:first-child {
     background-color: #fae20d;
+    display: block;
     font-size: 24px;
     padding: 16px 10px;
     font-weight: 500;
